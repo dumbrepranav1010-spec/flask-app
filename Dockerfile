@@ -1,6 +1,6 @@
 FROM python3
 RUN pip install flask
-COPY app.py .
+COPY hello.py .
 
 # Expose the port Flask runs on
 EXPOSE 5000
